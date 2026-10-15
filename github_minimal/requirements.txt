@@ -1,0 +1,18 @@
+# Install a suitable PyTorch 2.8.0 build separately before this file.
+# These direct dependencies match the existing experiment environment.
+torch==2.8.0
+# The experiment used this official development revision, whose version string
+# remains 2.2.2 but whose data API differs from the PyPI/tagged 2.2.2 release.
+chronos-forecasting @ https://github.com/amazon-science/chronos-forecasting/archive/f951d9aefa06f5389b2ed6b0e51fd5a1a4cf194b.zip
+transformers==4.57.3
+accelerate==1.12.0
+peft==0.18.0
+numpy==2.2.5
+pandas==2.3.3
+scikit-learn==1.7.1
+scipy==1.15.3
+matplotlib==3.10.6
+einops==0.8.1
+reformer-pytorch==1.4.4
+tqdm==4.67.1
+threadpoolctl==3.5.0
